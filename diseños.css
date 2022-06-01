@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* NAV */
+.icono-redes-header{
+    width: 20px;
+    margin: 10px 5px;
+}
+/* Menu */
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}   
+
+#menu form > button {
+    font-size:18px;
+    font-weight:bold;
+}
+
+.justificar{
+    text-align: justify;
+}
+/* SLIDER DE IMAGENES */
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+.carousel-caption {
+    position: relative;       
+    right: 15%;
+    top: 0%; 
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/* DETALLES */
+.altura-a-b{
+    padding: 100px 0;
+    text-align: justify;
+}
+
+.cabecera-somos{
+    padding: 150px 0 100px 0;
+    background-image: url("./img/gtav3.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner-somos{
+    background-position: center center;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+}
+.texto-blanco{
+    color:#fff;
+}
+
+/* CONTACTO */
+.cabecera-contacto{
+    padding: 150px 0 100px 0;
+    background-image: url("./img/nms1.png");
+    background-position: center center;
+    background-size: cover;
+}
+.altura-a-contacto{
+    padding: 25px 15px;
+}
+/* GALERIA */
+.cabecera-galeria{
+    padding: 150px 0 100px 0;
+    background-image: url("./img/cabeceragaleria.png");
+    background-position: center center;
+    background-size: cover;
+}
+/* Footer */
+footer{
+    background-color: black;
+    padding: 100px 0;
+    text-align: center;
+}
+footer .logotipo-footer{
+    margin-bottom: 20px;
+}
+
+footer p{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
